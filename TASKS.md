@@ -2,23 +2,23 @@
 
 ## Fase 0. Preparación y verificación del entorno
 
-- [ ] Verificar la instalación y disponibilidad de Node.js, npm, Docker y las demás herramientas necesarias.
-- [ ] Comprobar las versiones y compatibilidad de las herramientas.
-- [ ] Identificar las dependencias que deben instalarse en el proyecto.
-- [ ] Solicitar autorización antes de instalar herramientas o dependencias faltantes.
-- [ ] Configurar Docker para MySQL y verificar su disponibilidad, con autorización para ejecutar los comandos correspondientes.
+- [x] Verificar la instalación y disponibilidad de Node.js, npm, Docker y las demás herramientas necesarias.
+- [x] Comprobar las versiones y compatibilidad de las herramientas.
+- [x] Identificar las dependencias que deben instalarse en el proyecto.
+- [x] Solicitar autorización antes de instalar herramientas o dependencias faltantes.
+- [x] Configurar Docker para MySQL y verificar su disponibilidad, con autorización para ejecutar los comandos correspondientes.
 
 ## Fase 1. Configuración y estructura del proyecto
 
-- [ ] Crear la estructura de carpetas definida en `ARCHITECTURE.md`.
-- [ ] Configurar Next.js, React, TypeScript y Tailwind CSS.
-- [ ] Configurar shadcn/ui y los componentes necesarios.
-- [ ] Configurar Prisma ORM y la conexión con MySQL.
-- [ ] Definir el modelo `Book` con los campos `id`, titulo, `autor` y portada.
-- [ ] Configurar las migraciones para crear la tabla de libros.
-- [ ] Preparar el almacenamiento local de las portadas.
-- [ ] Configurar las variables de entorno y los archivos de configuración necesarios.
-- [ ] Verificar la configuración inicial antes de comenzar el CRUD.
+- [x] Crear la estructura de carpetas definida en `ARCHITECTURE.md`.
+- [x] Configurar Next.js, React, TypeScript y Tailwind CSS.
+- [x] Configurar shadcn/ui y los componentes necesarios.
+- [x] Configurar Prisma ORM y la conexión con MySQL.
+- [x] Definir el modelo `Book` con los campos `id`, titulo, `autor` y portada.
+- [x] Configurar las migraciones para crear la tabla de libros.
+- [x] Preparar el almacenamiento local de las portadas.
+- [x] Configurar las variables de entorno y los archivos de configuración necesarios.
+- [x] Verificar la configuración inicial antes de comenzar el CRUD.
 
 ## Fase 2. Desarrollo del backend y operaciones CRUD
 
@@ -46,3 +46,6 @@
 ## Bloqueos y tareas pendientes
 
 Registrar aquí las tareas bloqueadas, los problemas encontrados y las decisiones que requieran aprobación del usuario.
+
+- MySQL se expone en localhost:3307 porque el puerto 3306 no pudo enlazarse en este entorno.
+- npm informó 7 vulnerabilidades de severidad alta durante la instalación; no se ejecutó una actualización automática.

@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS biblioteca_shadow;
+GRANT CREATE, ALTER, DROP, INDEX, REFERENCES ON biblioteca_shadow.* TO 'biblioteca'@'%';
+FLUSH PRIVILEGES;

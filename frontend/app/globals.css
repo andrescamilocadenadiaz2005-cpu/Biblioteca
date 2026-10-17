@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #0b0b0b;
+  --surface: #151515;
+  --gold: #d4af37;
+  --gold-soft: #b89b45;
+  --foreground: #f5f1e8;
+  --muted: #b8b8b8;
+  --border: #665523;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Times New Roman", Times, serif;
+}
