@@ -22,12 +22,12 @@
 
 ## Fase 2. Desarrollo del backend y operaciones CRUD
 
-- [ ] Implementar la consulta y el listado de libros.
-- [ ] Implementar el registro de libros y la recepción de imágenes.
-- [ ] Implementar la edición de título, autor y portada.
-- [ ] Implementar la eliminación de libros y la gestión de sus portadas asociadas.
-- [ ] Implementar las validaciones necesarias y el manejo básico de errores.
-- [ ] Verificar las operaciones CRUD y su persistencia en MySQL.
+- [x] Implementar la consulta y el listado de libros.
+- [x] Implementar el registro de libros y la recepción de imágenes.
+- [x] Implementar la edición de título, autor y portada.
+- [x] Implementar la eliminación de libros y la gestión de sus portadas asociadas.
+- [x] Implementar las validaciones necesarias y el manejo básico de errores.
+- [x] Verificar las operaciones CRUD y su persistencia en MySQL.
 
 ## Fase 3. Desarrollo del frontend y verificación final
 

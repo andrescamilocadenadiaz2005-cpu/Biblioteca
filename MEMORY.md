@@ -19,3 +19,12 @@
 - `npm install` instaló 463 paquetes y reportó 7 vulnerabilidades altas. No se ejecutó `npm audit fix` ni otra actualización automática.
 - Verificaciones: `docker compose config --quiet`, MySQL responde, `prisma migrate status` informa el esquema actualizado, `next build` pasó y `tsc --noEmit` pasó. No se ejecutaron pruebas de CRUD.
 - Fase 1 completada. Fases 2 y 3 siguen pendientes.
+## Fase 2 - Backend y CRUD
+
+- Se implementaron `GET/POST /api/books` y `GET/PUT/DELETE /api/books/[id]` mediante repositorio Prisma y servicio de negocio.
+- Las portadas se guardan en `storage/covers` y se sirven por `GET /api/covers/[filename]`; se aceptan imágenes JPG, PNG, GIF y WebP hasta 5 MB, verificando la firma del archivo.
+- La edición conserva la portada si no se envía una nueva; al reemplazar o eliminar se limpia el archivo asociado después de confirmar el cambio en la base.
+- Errores de validación e identificadores se devuelven con estados HTTP adecuados; los errores internos no exponen detalles de base de datos.
+- Verificación: `tsc --noEmit`, `next build` y prueba manual de la API en producción cubriendo validación, alta, listado, consulta individual, edición, conservación/sustitución de portada y eliminación.
+- Al terminar la verificación, `Book` quedó con 0 registros y `storage/covers` solo contiene `.gitkeep`; el servidor temporal se detuvo. MySQL permanece activo en Docker.
+- Fase 2 completada. Fase 3 (interfaz y verificación final) sigue pendiente.
