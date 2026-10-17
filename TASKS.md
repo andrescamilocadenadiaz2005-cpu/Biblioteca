@@ -31,17 +31,17 @@
 
 ## Fase 3. Desarrollo del frontend y verificación final
 
-- [ ] Implementar la vista central del catálogo siguiendo `DESIGN.md`.
-- [ ] Mostrar los libros como rectángulos horizontales con portada, título y autor.
-- [ ] Implementar el formulario para agregar libros.
-- [ ] Implementar la selección de un libro y las acciones de editar y eliminar.
-- [ ] Implementar el formulario de edición y la confirmación «¿Estás seguro de editar este libro?».
-- [ ] Implementar la confirmación «¿Estás seguro de eliminar {titulo del libro}?» y las acciones de confirmar o cancelar.
-- [ ] Conectar la interfaz con el backend.
-- [ ] Comprobar el funcionamiento completo del CRUD, incluyendo la carga y sustitución de imágenes.
-- [ ] Verificar la coherencia visual con `DESIGN.md` y el cumplimiento de los requisitos del `PRD.md`.
-- [ ] Actualizar `README.md` con los requisitos, la configuración y los comandos de ejecución verificados.
-- [ ] Actualizar `MEMORY.md` con el estado final del proyecto y los pendientes, si existen.
+- [x] Implementar la vista central del catálogo siguiendo `DESIGN.md`.
+- [x] Mostrar los libros como rectángulos horizontales con portada, título y autor.
+- [x] Implementar el formulario para agregar libros.
+- [x] Implementar la selección de un libro y las acciones de editar y eliminar.
+- [x] Implementar el formulario de edición y la confirmación «¿Estás seguro de editar este libro?».
+- [x] Implementar la confirmación «¿Estás seguro de eliminar {titulo del libro}?» y las acciones de confirmar o cancelar.
+- [x] Conectar la interfaz con el backend.
+- [x] Comprobar el funcionamiento completo del CRUD, incluyendo la carga y sustitución de imágenes.
+- [x] Verificar la coherencia visual con `DESIGN.md` y el cumplimiento de los requisitos del `PRD.md`.
+- [x] Actualizar `README.md` con los requisitos, la configuración y los comandos de ejecución verificados.
+- [x] Actualizar `MEMORY.md` con el estado final del proyecto y los pendientes, si existen.
 
 ## Bloqueos y tareas pendientes
 

@@ -28,3 +28,12 @@
 - Verificación: `tsc --noEmit`, `next build` y prueba manual de la API en producción cubriendo validación, alta, listado, consulta individual, edición, conservación/sustitución de portada y eliminación.
 - Al terminar la verificación, `Book` quedó con 0 registros y `storage/covers` solo contiene `.gitkeep`; el servidor temporal se detuvo. MySQL permanece activo en Docker.
 - Fase 2 completada. Fase 3 (interfaz y verificación final) sigue pendiente.
+## Fase 3 - Interfaz y verificación final
+
+- Se implementó la vista central con lista horizontal, selección por libro y acciones asociadas, estados vacío/carga/error y estilo negro/dorado con Times New Roman.
+- Se añadieron formularios de alta y edición con selección de archivo y vista previa. La edición pide confirmación con el mensaje requerido; cancelar descarta los cambios.
+- La eliminación muestra el título real y solicita confirmar/cancelar antes de llamar a la API.
+- La interfaz actualiza el catálogo tras las mutaciones y presenta los errores de API sin mostrar detalles internos.
+- Se añadió `README.md` con requisitos y comandos de configuración/ejecución.
+- Verificación final: `tsc --noEmit`, `next build`, servidor de producción HTTP 200 y `GET /api/books` respondió correctamente. El CRUD con MySQL y manejo de portadas ya había sido probado en la fase 2.
+- Las tres fases están completadas; no se dejaron datos de prueba ni portadas de prueba.
